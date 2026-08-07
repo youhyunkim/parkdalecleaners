@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Dry cleaning done on premises">
+  <circle cx="60" cy="60" r="56" fill="#f3ece0"/>
+
+  <!-- steam rising above the shop -->
+  <g fill="none" stroke="#8fb3cf" stroke-width="3.4" stroke-linecap="round">
+    <path d="M44,26 c8,-8 -6,-13 2,-21"/>
+    <path d="M76,26 c8,-8 -6,-13 2,-21"/>
+  </g>
+
+  <!-- shop -->
+  <rect x="30" y="54" width="60" height="42" rx="4" fill="#ffffff" stroke="#14273f" stroke-width="3.4"/>
+  <path d="M22,56 L60,30 L98,56" fill="none" stroke="#14273f" stroke-width="3.4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- rail + shirt inside -->
+  <path d="M38,64 H82" stroke="#c19849" stroke-width="3" stroke-linecap="round"/>
+  <path d="M55,66 L44,71 L47,78 L51,76 v16 h18 V76 l4,2 3,-7 L65,66 Z"
+        fill="#dbe7f2" stroke="#14273f" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M55,66 L60,72 L65,66" fill="none" stroke="#14273f" stroke-width="2.6" stroke-linejoin="round"/>
+</svg>
