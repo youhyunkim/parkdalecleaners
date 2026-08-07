@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Family owned and operated">
+  <circle cx="60" cy="60" r="56" fill="#f3ece0"/>
+
+  <!-- heart -->
+  <path d="M60,44 C46,34 40,28 40,21 A8.5,8.5 0 0 1 60,16 A8.5,8.5 0 0 1 80,21 C80,28 74,34 60,44 Z"
+        fill="#c19849"/>
+
+  <!-- family -->
+  <g stroke="#14273f" stroke-width="3.2" stroke-linejoin="round">
+    <circle cx="34" cy="66" r="9" fill="#ffffff"/>
+    <path d="M20,98 v-8 a14,14 0 0 1 28,0 v8 Z" fill="#ffffff"/>
+
+    <circle cx="86" cy="66" r="9" fill="#ffffff"/>
+    <path d="M72,98 v-8 a14,14 0 0 1 28,0 v8 Z" fill="#ffffff"/>
+
+    <circle cx="60" cy="78" r="7" fill="#dbe7f2"/>
+    <path d="M49,98 v-5 a11,11 0 0 1 22,0 v5 Z" fill="#dbe7f2"/>
+  </g>
+</svg>
