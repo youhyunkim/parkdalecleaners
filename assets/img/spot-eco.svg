@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Environmentally friendly cleaning">
+  <circle cx="60" cy="60" r="56" fill="#f3ece0"/>
+
+  <!-- canopy -->
+  <circle cx="42" cy="54" r="17" fill="#c19849"/>
+  <circle cx="78" cy="54" r="17" fill="#c19849"/>
+  <circle cx="60" cy="40" r="23" fill="#c19849" stroke="#14273f" stroke-width="3.2"/>
+
+  <!-- trunk -->
+  <path d="M54,96 L56,68 h8 l2,28 Z" fill="#ffffff" stroke="#14273f" stroke-width="3.2" stroke-linejoin="round"/>
+</svg>

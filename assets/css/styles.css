@@ -211,7 +211,7 @@ ul,ol{ margin:0; padding:0; }
 }
 
 /* pillars */
-.pillars{ display:grid; grid-template-columns:repeat(3,1fr); gap:clamp(20px,3vw,36px); }
+.pillars{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:clamp(20px,3vw,36px); }
 .pillar{
   background:var(--paper); border:1px solid var(--line); border-radius:var(--radius);
   padding:34px 30px 30px; box-shadow:var(--shadow-sm);
@@ -273,6 +273,40 @@ ul,ol{ margin:0; padding:0; }
   font-family:var(--font-display); font-size:1.15rem; margin-bottom:18px;
 }
 .step p{ margin:0; font-size:.98rem; }
+
+/* ── Review page ───────────────────────────────────────── */
+.hero--review .wrap{ padding-block:clamp(22px,4vw,40px) clamp(14px,2.5vw,24px); }
+.hero--review .eyebrow{ margin-bottom:.6em; }
+.hero--review h1{ font-size:clamp(1.7rem,4.4vw,2.5rem); margin-bottom:.35em; }
+.hero--review .lede{ font-size:1rem; margin:0; }
+.section--tight-top{ padding-top:clamp(20px,3vw,32px); }
+
+.review-options{ display:grid; grid-template-columns:repeat(2,1fr); gap:clamp(20px,3vw,32px); }
+.review-card{
+  display:block; text-decoration:none;
+  background:var(--paper); border:1px solid var(--line); border-radius:var(--radius);
+  padding:36px 32px; box-shadow:var(--shadow-sm);
+  transition:transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+}
+.review-card:hover{ transform:translateY(-5px); box-shadow:var(--shadow-md); border-color:transparent; }
+.review-card__icon{
+  width:60px; height:60px; border-radius:14px; margin-bottom:20px;
+  display:grid; place-items:center;
+  background:var(--cream-2); color:var(--ink);
+}
+.review-card__icon svg{ width:32px; height:32px; }
+.review-card h2{ font-size:1.4rem; margin-bottom:.4em; }
+.review-card p{ font-size:.98rem; margin-bottom:1.4em; }
+.review-card__cta{
+  display:inline-flex; align-items:center; gap:.5em;
+  font-family:var(--font-body); font-weight:600; font-size:.95rem; color:var(--ink);
+}
+.review-card__cta .icon{ transition:transform .25s ease; }
+.review-card:hover .review-card__cta .icon{ transform:translateX(4px); }
+
+@media (max-width:620px){
+  .review-options{ grid-template-columns:1fr; }
+}
 
 /* ── Visit ─────────────────────────────────────────────── */
 .visit{ display:grid; grid-template-columns:1fr 1fr; gap:clamp(28px,5vw,64px); align-items:start; }
